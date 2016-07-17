@@ -1,0 +1,19 @@
+{
+  "name": "jsaturday_require",
+  "version": "1.0.0",
+  "description": "Extends require",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test/test.js"
+  },
+  "author": "mySaturday.ninja",
+  "license": "ISC",
+  "dependencies": {
+    "debug": "2.2.0",
+    "env-settings": "^0.2.11"
+  },
+  "devDependencies": {
+    "mocha": "2.5.3",
+    "should": "9.0.2"
+  }
+}
